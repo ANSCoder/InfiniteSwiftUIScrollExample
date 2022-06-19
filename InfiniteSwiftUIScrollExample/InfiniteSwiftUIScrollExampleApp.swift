@@ -11,7 +11,7 @@ import SwiftUI
 struct InfiniteSwiftUIScrollExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FlickerImagesView()
         }
     }
 }

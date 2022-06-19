@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1745E681285F46DE00AD6C49 /* InfiniteSwiftUIScrollExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E680285F46DE00AD6C49 /* InfiniteSwiftUIScrollExampleApp.swift */; };
-		1745E683285F46DE00AD6C49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E682285F46DE00AD6C49 /* ContentView.swift */; };
 		1745E685285F46E000AD6C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1745E684285F46E000AD6C49 /* Assets.xcassets */; };
 		1745E688285F46E000AD6C49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1745E687285F46E000AD6C49 /* Preview Assets.xcassets */; };
 		1745E692285F46E000AD6C49 /* InfiniteSwiftUIScrollExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E691285F46E000AD6C49 /* InfiniteSwiftUIScrollExampleTests.swift */; };
 		1745E69C285F46E000AD6C49 /* InfiniteSwiftUIScrollExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E69B285F46E000AD6C49 /* InfiniteSwiftUIScrollExampleUITests.swift */; };
 		1745E69E285F46E000AD6C49 /* InfiniteSwiftUIScrollExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E69D285F46E000AD6C49 /* InfiniteSwiftUIScrollExampleUITestsLaunchTests.swift */; };
+		1745E6AF285F563F00AD6C49 /* FlickerImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E6AE285F563F00AD6C49 /* FlickerImagesView.swift */; };
+		1745E6B1285F578900AD6C49 /* FlickerImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E6B0285F578900AD6C49 /* FlickerImagesViewModel.swift */; };
+		1745E6B3285F5AEA00AD6C49 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E6B2285F5AEA00AD6C49 /* Photos.swift */; };
+		1745E6BA285F5DC900AD6C49 /* RemoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E6B9285F5DC900AD6C49 /* RemoteData.swift */; };
+		1745E6BC285F5DF700AD6C49 /* RemoteData+EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E6BB285F5DF700AD6C49 /* RemoteData+EndPoint.swift */; };
+		1745E6BF285F656B00AD6C49 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E6BE285F656B00AD6C49 /* DataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		1745E67D285F46DE00AD6C49 /* InfiniteSwiftUIScrollExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteSwiftUIScrollExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1745E680285F46DE00AD6C49 /* InfiniteSwiftUIScrollExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteSwiftUIScrollExampleApp.swift; sourceTree = "<group>"; };
-		1745E682285F46DE00AD6C49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1745E684285F46E000AD6C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1745E687285F46E000AD6C49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1745E68D285F46E000AD6C49 /* InfiniteSwiftUIScrollExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteSwiftUIScrollExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,12 @@
 		1745E697285F46E000AD6C49 /* InfiniteSwiftUIScrollExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteSwiftUIScrollExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1745E69B285F46E000AD6C49 /* InfiniteSwiftUIScrollExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteSwiftUIScrollExampleUITests.swift; sourceTree = "<group>"; };
 		1745E69D285F46E000AD6C49 /* InfiniteSwiftUIScrollExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteSwiftUIScrollExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1745E6AE285F563F00AD6C49 /* FlickerImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerImagesView.swift; sourceTree = "<group>"; };
+		1745E6B0285F578900AD6C49 /* FlickerImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerImagesViewModel.swift; sourceTree = "<group>"; };
+		1745E6B2285F5AEA00AD6C49 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		1745E6B9285F5DC900AD6C49 /* RemoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteData.swift; sourceTree = "<group>"; };
+		1745E6BB285F5DF700AD6C49 /* RemoteData+EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemoteData+EndPoint.swift"; sourceTree = "<group>"; };
+		1745E6BE285F656B00AD6C49 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				1745E680285F46DE00AD6C49 /* InfiniteSwiftUIScrollExampleApp.swift */,
-				1745E682285F46DE00AD6C49 /* ContentView.swift */,
+				1745E6AA285F4ED100AD6C49 /* Scroll View */,
 				1745E684285F46E000AD6C49 /* Assets.xcassets */,
 				1745E686285F46E000AD6C49 /* Preview Content */,
 			);
@@ -125,6 +135,67 @@
 				1745E69D285F46E000AD6C49 /* InfiniteSwiftUIScrollExampleUITestsLaunchTests.swift */,
 			);
 			path = InfiniteSwiftUIScrollExampleUITests;
+			sourceTree = "<group>";
+		};
+		1745E6AA285F4ED100AD6C49 /* Scroll View */ = {
+			isa = PBXGroup;
+			children = (
+				1745E6BD285F655000AD6C49 /* Networking */,
+				1745E6B8285F5DB000AD6C49 /* PropertyWrapper */,
+				1745E6B7285F5CE600AD6C49 /* Extension */,
+				1745E6AD285F4F0100AD6C49 /* ViewModel */,
+				1745E6AC285F4EFB00AD6C49 /* View */,
+				1745E6AB285F4EEB00AD6C49 /* Model */,
+			);
+			path = "Scroll View";
+			sourceTree = "<group>";
+		};
+		1745E6AB285F4EEB00AD6C49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1745E6B2285F5AEA00AD6C49 /* Photos.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1745E6AC285F4EFB00AD6C49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1745E6AE285F563F00AD6C49 /* FlickerImagesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1745E6AD285F4F0100AD6C49 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1745E6B0285F578900AD6C49 /* FlickerImagesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1745E6B7285F5CE600AD6C49 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1745E6BB285F5DF700AD6C49 /* RemoteData+EndPoint.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1745E6B8285F5DB000AD6C49 /* PropertyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				1745E6B9285F5DC900AD6C49 /* RemoteData.swift */,
+			);
+			path = PropertyWrapper;
+			sourceTree = "<group>";
+		};
+		1745E6BD285F655000AD6C49 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1745E6BE285F656B00AD6C49 /* DataLoader.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +328,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1745E683285F46DE00AD6C49 /* ContentView.swift in Sources */,
+				1745E6BC285F5DF700AD6C49 /* RemoteData+EndPoint.swift in Sources */,
+				1745E6B3285F5AEA00AD6C49 /* Photos.swift in Sources */,
+				1745E6BF285F656B00AD6C49 /* DataLoader.swift in Sources */,
+				1745E6AF285F563F00AD6C49 /* FlickerImagesView.swift in Sources */,
+				1745E6B1285F578900AD6C49 /* FlickerImagesViewModel.swift in Sources */,
+				1745E6BA285F5DC900AD6C49 /* RemoteData.swift in Sources */,
 				1745E681285F46DE00AD6C49 /* InfiniteSwiftUIScrollExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
