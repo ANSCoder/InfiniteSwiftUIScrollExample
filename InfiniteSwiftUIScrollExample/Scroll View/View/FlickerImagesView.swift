@@ -30,7 +30,9 @@ struct FlickerImagesView: View {
                                 }
                                 .frame(width: geo.size.width/3, height: geo.size.width/3)
                             }.onAppear {
-                                _feed.update()
+                                if item == feed.last {
+                                    _feed.update()
+                                }
                             }
                         }
                     }
