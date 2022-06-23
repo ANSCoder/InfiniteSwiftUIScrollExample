@@ -16,6 +16,10 @@ struct Photo: Identifiable, Codable {
     let id = UUID()
     let title: String
     let media: Media
+    
+    enum CodingKeys: String, CodingKey {
+        case title, media
+    }
 }
 
 extension Photo: Equatable {

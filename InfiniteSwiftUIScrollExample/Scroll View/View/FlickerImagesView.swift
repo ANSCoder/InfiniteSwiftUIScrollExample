@@ -23,8 +23,12 @@ struct FlickerImagesView: View {
                     LazyVGrid(columns: columns, spacing: 3) {
                         ForEach(feed) { item in
                             VStack {
+                                /// Fetching image async
                                 AsyncImage(url: URL(string: item.media.m)) { image in
-                                    image.resizable()
+                                    /// Adding Navigation link for see full image
+                                    NavigationLink { FullImageView(image: image) } label: {
+                                        image.resizable()
+                                    }
                                 } placeholder: {
                                     ProgressView()
                                 }
@@ -40,9 +44,8 @@ struct FlickerImagesView: View {
                         Spacer()
                         ProgressView()
                     }
-                }
-            }
-            .navigationTitle("Photos")
+                }.clipped()
+            }.navigationTitle("Infinite Scroll View")
         }
     }
 }

@@ -12,9 +12,3 @@ extension RemoteData {
         case feed
     }
 }
-
-extension URL {
-    static func `for`(_ endpoint: RemoteData.Endpoint) -> URL {
-        return URL(string: "https://api.flickr.com/services/feeds/photos_public.gne?nojsoncallback=1&format=json")!
-    }
-}

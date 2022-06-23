@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1724B7A22864CC4B00816F84 /* URLSession+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1724B7A12864CC4B00816F84 /* URLSession+Publisher.swift */; };
+		1724B7A42864CCA200816F84 /* URL+Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1724B7A32864CCA200816F84 /* URL+Endpoints.swift */; };
+		1724B7A62864D27B00816F84 /* FullImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1724B7A52864D27B00816F84 /* FullImageView.swift */; };
 		1745E681285F46DE00AD6C49 /* InfiniteSwiftUIScrollExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745E680285F46DE00AD6C49 /* InfiniteSwiftUIScrollExampleApp.swift */; };
 		1745E685285F46E000AD6C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1745E684285F46E000AD6C49 /* Assets.xcassets */; };
 		1745E688285F46E000AD6C49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1745E687285F46E000AD6C49 /* Preview Assets.xcassets */; };
@@ -39,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1724B7A12864CC4B00816F84 /* URLSession+Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Publisher.swift"; sourceTree = "<group>"; };
+		1724B7A32864CCA200816F84 /* URL+Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Endpoints.swift"; sourceTree = "<group>"; };
+		1724B7A52864D27B00816F84 /* FullImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullImageView.swift; sourceTree = "<group>"; };
 		1745E67D285F46DE00AD6C49 /* InfiniteSwiftUIScrollExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteSwiftUIScrollExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1745E680285F46DE00AD6C49 /* InfiniteSwiftUIScrollExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteSwiftUIScrollExampleApp.swift; sourceTree = "<group>"; };
 		1745E684285F46E000AD6C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -162,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				1745E6AE285F563F00AD6C49 /* FlickerImagesView.swift */,
+				1724B7A52864D27B00816F84 /* FullImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				1745E6BB285F5DF700AD6C49 /* RemoteData+EndPoint.swift */,
+				1724B7A32864CCA200816F84 /* URL+Endpoints.swift */,
+				1724B7A12864CC4B00816F84 /* URLSession+Publisher.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -330,8 +339,11 @@
 			files = (
 				1745E6BC285F5DF700AD6C49 /* RemoteData+EndPoint.swift in Sources */,
 				1745E6B3285F5AEA00AD6C49 /* Photos.swift in Sources */,
+				1724B7A22864CC4B00816F84 /* URLSession+Publisher.swift in Sources */,
 				1745E6BF285F656B00AD6C49 /* DataLoader.swift in Sources */,
+				1724B7A42864CCA200816F84 /* URL+Endpoints.swift in Sources */,
 				1745E6AF285F563F00AD6C49 /* FlickerImagesView.swift in Sources */,
+				1724B7A62864D27B00816F84 /* FullImageView.swift in Sources */,
 				1745E6B1285F578900AD6C49 /* FlickerImagesViewModel.swift in Sources */,
 				1745E6BA285F5DC900AD6C49 /* RemoteData.swift in Sources */,
 				1745E681285F46DE00AD6C49 /* InfiniteSwiftUIScrollExampleApp.swift in Sources */,
